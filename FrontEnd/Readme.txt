@@ -1,1 +1,1 @@
-Front
+This section contains frontend code of SyncBoard. 
