@@ -36,16 +36,28 @@ function App() {
 					>
 						<header>
 							<div className="header">
-								<img
-									src={Logo}
-									alt="Logo"
-									width="20"
-									style={{
-										padding: "5px",
+								<ul>
+									<div className="left">
+										<img
+											src={Logo}
+											alt="Logo"
+											width="20"
+											style={{
+												padding: "5px",
 
-										borderRight: "0.05px hsla(0,0%,50%,0.4) solid",
-									}}
-								/>
+												borderRight: "0.05px hsla(0,0%,50%,0.4) solid",
+											}}
+										/>
+
+										<span style={{ textAlign: "center", height: "3px" }}>
+											SyncBoard
+										</span>
+									</div>
+									<div className="right"></div>
+									<li>i2</li>
+									<li>jj</li>
+									<li>i2</li>
+								</ul>
 							</div>
 						</header>
 					</div>
